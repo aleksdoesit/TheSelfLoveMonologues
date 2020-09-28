@@ -3,7 +3,7 @@
 
     .mobileHeaderWrapper {
       position: sticky;
-      padding: 5px;
+      padding: 5px 10px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -29,16 +29,35 @@
       z-index: 3;
       transform: translateX(-280px);
       transition: all 300ms ease-in-out;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .mobileNavLogo {
+        text-align: center;
+      }
+
+      .navigationLinksMobile {
+        margin: 0 0 100px;
+      }
 
       ul {
         padding: 0;
 
+
         li {
           list-style: none;
+          margin: 20px 0;
 
           a {
             text-decoration: none;
             color: #fff;
+            font-size: 20px;
+          }
+
+          a:hover {
+            color: $pink;
           }
         }
       }

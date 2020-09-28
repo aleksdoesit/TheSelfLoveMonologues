@@ -239,7 +239,7 @@ html {
   header .mobileHeaderWrapper {
     position: -webkit-sticky;
     position: sticky;
-    padding: 5px;
+    padding: 5px 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -270,16 +270,38 @@ html {
             transform: translateX(-280px);
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
+    padding: 30px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .mobileNav .mobileNavLogo {
+    text-align: center;
+  }
+  header .mobileNav .navigationLinksMobile {
+    margin: 0 0 100px;
   }
   header .mobileNav ul {
     padding: 0;
   }
   header .mobileNav ul li {
     list-style: none;
+    margin: 20px 0;
   }
   header .mobileNav ul li a {
     text-decoration: none;
     color: #fff;
+    font-size: 20px;
+  }
+  header .mobileNav ul li a:hover {
+    color: #FEC8D8;
   }
   header .mobileNav .socialLinksMobile {
     display: -webkit-box;
