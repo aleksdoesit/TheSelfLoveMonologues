@@ -1,0 +1,75 @@
+@media only screen and (min-width: 1px) {
+  header {
+
+    .mobileHeaderWrapper {
+      position: sticky;
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .mobileLogo {
+        height: 60px;
+        width: 60px;
+      }
+
+      .menuBarsMobile {
+        font-size: 20px;
+      }
+    }
+
+    .mobileNav {
+      background-color: #000;
+      color: white;
+      position: absolute;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      width: 280px;
+      z-index: 3;
+      transform: translateX(-280px);
+      transition: all 300ms ease-in-out;
+
+      ul {
+        padding: 0;
+
+        li {
+          list-style: none;
+
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+
+      .socialLinksMobile {
+        display: flex;
+        justify-content: space-evenly;
+      }
+    }
+
+    .overlay {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-color: rgba(0, 0, 0, 0.4);
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: all 300ms ease-in-out;
+      visibility: hidden;
+    }
+
+    .mobileMenuOpen {
+      transform: translateX(0);
+    }
+
+    .overlayActive {
+      z-index: 2;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
