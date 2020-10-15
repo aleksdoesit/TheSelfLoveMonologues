@@ -249,13 +249,15 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background-color: #000;
   }
   header .mobileHeaderWrapper .mobileLogo {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
   }
   header .mobileHeaderWrapper .menuBarsMobile {
     font-size: 20px;
+    color: #D3D3D3;
   }
   header .mobileNav {
     background-color: #000;
@@ -299,6 +301,8 @@ html {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   header .mobileNav ul li a:hover {
     color: #FEC8D8;
@@ -332,6 +336,46 @@ html {
     z-index: 2;
     opacity: 1;
     visibility: visible;
+  }
+  main .home .landingPage {
+    background: url("../assets/HeaderTemp.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+    position: relative;
+  }
+  main .home .landingPage .latestEpisodeCallToAction {
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+  }
+  main .home .landingPage .latestEpisodeCallToAction .listenNow {
+    background-color: #000;
+    border: none;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px 20px;
+    text-align: left;
+  }
+  main .home .landingPage .latestEpisodeCallToAction .listenNow a {
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  main .home .landingPage .latestEpisodeCallToAction .listenNow a i {
+    color: #1DB954;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  main .home .landingPage .latestEpisodeCallToAction .listenNow a i:hover {
+    color: #fff;
+  }
+  main .home .landingPage .latestEpisodeCallToAction .listenNow a:hover {
+    color: #1DB954;
   }
 }
 /*# sourceMappingURL=styles.css.map */
