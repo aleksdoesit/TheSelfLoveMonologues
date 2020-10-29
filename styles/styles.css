@@ -215,6 +215,7 @@ template {
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-weight: 400;
 }
 
 *, *:before, *:after {
@@ -392,14 +393,21 @@ html {
     font-size: 14px;
     margin-left: 20px;
   }
+  main .about .missionStatement h4 {
+    font-weight: 400;
+  }
   main .about .missionStatement h3 {
     font-size: 30px;
     line-height: 35px;
+    font-weight: 400;
   }
   main .about .missionStatement .goalWrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  main .about .missionStatement .goalWrapper i {
+    font-size: 25px;
   }
   main .about .missionStatement .goalWrapper div {
     padding-left: 10px;
@@ -407,6 +415,7 @@ html {
   main .about .missionStatement .goalWrapper div h6 {
     font-size: 16px;
     margin: 0;
+    font-weight: 400;
   }
   main .about .missionStatement .goalWrapper div p {
     margin: 0;
