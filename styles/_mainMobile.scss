@@ -107,27 +107,27 @@
         height: 350px;
         padding: 30px;
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
 
         .latestEpisodeCallToAction {
-          position: absolute;
-          bottom: -15px;
-          right: 0;
 
           .listenNow {
             background-color: #000;
             border: none;
             border-radius: 3px;
-            border-top-right-radius: 0;
-            border-bottom-right-radius: 0;
             padding: 10px 20px;
-            text-align: left;
   
             a {
               text-decoration: none;
               color: #ffffff;
               transition: all 0.3s ease-in-out;
+              display: flex;
+              align-items: center;
 
               i {
+                margin-left: 5px;
                 color: #1DB954;
                 transition: all 0.3s ease-in-out;
               }
