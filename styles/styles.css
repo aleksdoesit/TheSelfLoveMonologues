@@ -391,7 +391,7 @@ html {
   main .about .missionStatement {
     color: #fff;
     font-size: 14px;
-    margin-left: 20px;
+    margin: 0 20px;
   }
   main .about .missionStatement h4 {
     font-weight: 400;
@@ -401,25 +401,73 @@ html {
     line-height: 35px;
     font-weight: 400;
   }
-  main .about .missionStatement .goalWrapper {
+  main .about .missionStatement .goalWrapper,
+  main .about .missionStatement .philosophyWrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: 10px 0;
   }
-  main .about .missionStatement .goalWrapper i {
-    font-size: 25px;
+  main .about .missionStatement .goalWrapper i,
+  main .about .missionStatement .philosophyWrapper i {
+    font-size: 40px;
   }
-  main .about .missionStatement .goalWrapper div {
+  main .about .missionStatement .goalWrapper div,
+  main .about .missionStatement .philosophyWrapper div {
     padding-left: 10px;
   }
-  main .about .missionStatement .goalWrapper div h6 {
+  main .about .missionStatement .goalWrapper div h6,
+  main .about .missionStatement .philosophyWrapper div h6 {
     font-size: 16px;
     margin: 0;
     font-weight: 400;
   }
-  main .about .missionStatement .goalWrapper div p {
+  main .about .missionStatement .goalWrapper div p,
+  main .about .missionStatement .philosophyWrapper div p {
     margin: 0;
     font-size: 14px;
+  }
+  main .about .missionStatement .philosophyWrapper div {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+  main .about .missionStatement .philosophyWrapper div h6,
+  main .about .missionStatement .philosophyWrapper div p {
+    text-align: right;
+  }
+  main .blog .myWriting {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 20px;
+  }
+  main .blog .myWriting h4 {
+    font-weight: 400;
+  }
+  main .blog .myWriting .blogWrapper .blog1,
+  main .blog .myWriting .blogWrapper .blog2,
+  main .blog .myWriting .blogWrapper .blog3 {
+    text-align: center;
+    position: relative;
+  }
+  main .blog .myWriting .blogWrapper .blog1 .blogImage,
+  main .blog .myWriting .blogWrapper .blog2 .blogImage,
+  main .blog .myWriting .blogWrapper .blog3 .blogImage {
+    width: 200px;
+    max-height: 200px;
+  }
+  main .blog .myWriting .blogWrapper .blog1 .blogDateStamp,
+  main .blog .myWriting .blogWrapper .blog2 .blogDateStamp,
+  main .blog .myWriting .blogWrapper .blog3 .blogDateStamp {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: auto auto;
+    position: absolute;
+    right: calc(50% - 25px);
+    bottom: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
