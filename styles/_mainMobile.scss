@@ -245,5 +245,21 @@
         }
       }
     }
+
+    .episodes {
+
+      .latestPodcast {
+
+        color: #fff;
+        font-size: 14px;
+        margin: 0 20px;
+
+        iframe {
+
+          max-width: 100%;
+          object-fit: contain;
+        }
+      }
+    }
   }
 }

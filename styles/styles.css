@@ -469,5 +469,15 @@ html {
     color: black;
     border-radius: 50%;
   }
+  main .episodes .latestPodcast {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 20px;
+  }
+  main .episodes .latestPodcast iframe {
+    max-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
