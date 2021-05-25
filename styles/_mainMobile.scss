@@ -253,11 +253,33 @@
         color: #fff;
         font-size: 14px;
         margin: 0 20px;
+        display: flex;
+        flex-direction: column;
 
         iframe {
 
           max-width: 100%;
+          max-height: 100px;
           object-fit: contain;
+        }
+      }
+    }
+
+    .contact {
+
+      color: #fff;
+      font-size: 14px;
+      margin: 0 20px;
+
+      .social {
+
+        display: flex;
+        justify-content: center;
+
+        i {
+
+          margin: 0 10px;
+          font-size: 40px;
         }
       }
     }
