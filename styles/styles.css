@@ -490,7 +490,10 @@ html {
   main .contact {
     color: #fff;
     font-size: 14px;
-    margin: 0 20px;
+    margin: 0 20px 20px;
+  }
+  main .contact h3 {
+    text-align: center;
   }
   main .contact .social {
     display: -webkit-box;
@@ -503,20 +506,50 @@ html {
   main .contact .social a:visited {
     color: inherit;
   }
-  main .contact .social a:visited i {
-    margin: 0 10px;
+  main .contact .social i {
     font-size: 40px;
+    margin: 0 10px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
-  main .contact .social a:visited .footerTwitter:hover {
+  main .contact .social .footerTwitter:hover {
     color: #1DA1F2;
   }
-  main .contact .social a:visited .footerInstagram:hover {
+  main .contact .social .footerInstagram:hover {
     color: #fbad50;
   }
-  main .contact .social a:visited .footerSpotify:hover {
+  main .contact .social .footerSpotify:hover {
     color: #1DB954;
+  }
+  main .contact .emailContact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .contact .emailContact .footerEmail {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  main .contact .emailContact .footerEmail i {
+    font-size: 40px;
+  }
+  main .contact .emailContact .footerEmail:visited {
+    color: inherit;
+  }
+  main .contact .emailContact .footerEmail:hover {
+    color: orangered;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
 }
 /*# sourceMappingURL=styles.css.map */
