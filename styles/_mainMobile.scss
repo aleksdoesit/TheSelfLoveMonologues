@@ -276,10 +276,32 @@
         display: flex;
         justify-content: center;
 
-        i {
+        a:visited {
 
-          margin: 0 10px;
-          font-size: 40px;
+          color: inherit;
+
+          i {
+  
+            margin: 0 10px;
+            font-size: 40px;
+            transition: all 0.3s ease-in-out;
+  
+          }
+  
+          .footerTwitter:hover {
+  
+            color: #1DA1F2;
+          }
+  
+          .footerInstagram:hover {
+  
+            color: #fbad50;
+          }
+  
+          .footerSpotify:hover {
+  
+            color: #1DB954;
+          }
         }
       }
     }

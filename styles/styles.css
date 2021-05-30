@@ -500,9 +500,23 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  main .contact .social i {
+  main .contact .social a:visited {
+    color: inherit;
+  }
+  main .contact .social a:visited i {
     margin: 0 10px;
     font-size: 40px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  main .contact .social a:visited .footerTwitter:hover {
+    color: #1DA1F2;
+  }
+  main .contact .social a:visited .footerInstagram:hover {
+    color: #fbad50;
+  }
+  main .contact .social a:visited .footerSpotify:hover {
+    color: #1DB954;
   }
 }
 /*# sourceMappingURL=styles.css.map */
